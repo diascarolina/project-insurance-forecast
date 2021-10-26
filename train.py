@@ -31,19 +31,20 @@ def run_model(model, print_values = 1, return_predictions = 0):
         print(f"\tMSE: {round(mse, 3)}")
         print(f"\tRMSE: {round(rmse, 3)}")
     if return_predictions:
-        return y_preds, mae, mse, rmse
+        return y_predictions, mae, mse, rmse
     return mae, mse, rmse
 
 
 # load data
-data_url = 'https://raw.githubusercontent.com/diascarolina/data-science-bootcamp/main/data/insurance.csv'
-
 print('Loading data...\n')
-df = pd.read_csv(data_url)
+df = pd.read_csv('insurance.csv')
 
 # prepare data
 print('Preparing data...\n')
-df = pd.get_dummies(df, columns = ['sex', 'region', 'smoker'])
+
+df.sex = df.sex.map({"female": 1, "male": 0})
+df.region = df.region.map({'southwest': 0, 'southeast': 1, 'northwest': 2, 'northeast': 3})
+df.smoker = df.smoker.map({"yes": 1, "no": 0})
 
 X = df.drop('charges', axis = 1)
 y = df.charges

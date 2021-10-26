@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 scikit-learn = "*"
 flask = "*"
+gunicorn = "*"
 
 [dev-packages]
 jupyterlab = "*"
