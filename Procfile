@@ -1,1 +1,1 @@
-web: gunicorn predict:app
+web: gunicorn predict:app && streamlit run streamlit.py
