@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import request
 from flask import jsonify
+from flask import render_template
 import pandas as pd
 import pickle
 
@@ -12,6 +13,10 @@ with open(model_file, 'rb') as f_in:
 
 
 app = Flask('forecast')
+
+@app.route('/', methods = ["GET"])
+def root():
+    return render_template("index.html")
 
 @app.route('/predict', methods = ['POST'])
 def predict():
