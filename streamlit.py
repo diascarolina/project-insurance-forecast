@@ -21,11 +21,11 @@ def predict(answers_dict):
     
     return float(prediction)
 
-st.markdown("<h1 style='text-align: center; color: black;'>Medical Health Insurance Forecast</h1>", unsafe_allow_html = True)
+# st.markdown("<h1 style='text-align: center; color: black;'>Medical Health Insurance Forecast</h1>", unsafe_allow_html = True)
 
-st.markdown("Welcome to **Medical Insurance Forecast**. Fill the information below and click **Predict Value** to check how much would your insurance cost.", unsafe_allow_html = True)
+# st.markdown("Welcome to **Medical Insurance Forecast**. Fill the information below and click **Predict Value** to check how much would your insurance cost.", unsafe_allow_html = True)
 
-st.caption("**Disclaimer**: More details can be found [here at the project repository](https://github.com/diascarolina/project-insurance-forecast).")
+# st.caption("**Disclaimer**: More details can be found [here at the project repository](https://github.com/diascarolina/project-insurance-forecast).")
 
 
 answers_dict = {}
