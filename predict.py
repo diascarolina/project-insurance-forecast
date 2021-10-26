@@ -13,7 +13,7 @@ with open(model_file, 'rb') as f_in:
 
 app = Flask('forecast')
 
-@app.route('/predict', methods = ['POST'])
+@app.route('/', methods = ['POST'])
 def predict():
     data = request.get_json()
 
