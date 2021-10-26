@@ -7,10 +7,10 @@ name = "pypi"
 scikit-learn = "*"
 flask = "*"
 gunicorn = "*"
+pandas = "*"
 
 [dev-packages]
 jupyterlab = "*"
-pandas = "*"
 ipykernel = "*"
 matplotlib = "*"
 seaborn = "*"
