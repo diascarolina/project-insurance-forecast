@@ -6,8 +6,8 @@
 
 1. [Problem Context](#problem-context)
 2. [Project Organization](#project-organization)
-3. [How to Run it Locally](how-to-run-it-locally)
-4. [Deployment with Heroku](deployment-with-heroku)
+3. [How to Run it Locally](#how-to-run-it-locally)
+4. [Deployment with Heroku](#deployment-with-heroku)
 5. 
 
 
@@ -25,7 +25,7 @@ From this we see that we have the following information (adapted from the Kaggle
 |:--------:|:-----------------------------------:|
 |    **age**   |  Age of primary beneficiary  |
 |    **sex**   |  Insurance contractor gender: female, male |
-|    **bmi**   |  Body mass index, providing an understanding of body, weights that are relatively high or low relative to height, objective index of body weight $(kg/m^2)$ using the ratio of height to weight, ideally 18.5 to 24.9 |
+|    **bmi**   |  Body mass index, providing an understanding of body, weights that are relatively high or low relative to height, objective index of body weight (kg/m^2) using the ratio of height to weight, ideally 18.5 to 24.9 |
 |   **children**   | Number of children covered by health insurance / Number of dependents |
 | **smoker** |    If that person smokes or not    |
 | **region** |  The beneficiary's residential area in the US, northeast, southeast, southwest, northwest  |
@@ -198,9 +198,9 @@ You don't need to make a request, you can fill the details directly on the app :
 
 # To Do
 
-[ ] Separate the files into folders for better organization
+- [ ] Separate the files into folders for better organization
 
-[ ] Try to deploy the Flask app and the Streamlit app into the same URL
+- [ ] Try to deploy the Flask app and the Streamlit app into the same URL
 
 # References
 
