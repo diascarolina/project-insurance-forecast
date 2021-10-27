@@ -133,7 +133,9 @@ python make_request.py
 Using `curl` (you can change the values of the parameters):
 
 ```bash
-curl -X POST http://localhost:9696/predict -H 'Content-Type: application/json' -d '{"age": 19, "sex": "female", "bmi": 25, "children": 1, "smoker": "no", "region": "northwest"}'
+curl -X POST http://localhost:9696/predict \
+-H 'Content-Type: application/json' \
+-d '{"age": 19, "sex": "female", "bmi": 25, "children": 1, "smoker": "no", "region": "northwest"}'
 ```
 
 That's it! If you want, you can explore it more and deploy the Streamlit app locally using
@@ -180,11 +182,13 @@ python make_request.py
 Or using `curl` (you can change the values of the parameters):
 
 ```bash
-curl -X POST https://insurance-forecast.herokuapp.com/predict -H 'Content-Type: application/json' -d '{"age": 19, "sex": "female", "bmi": 25, "children": 1, "smoker": "no", "region": "northwest"}'
+curl -X POST https://insurance-forecast.herokuapp.com/predict \
+-H 'Content-Type: application/json' \
+-d '{"age": 19, "sex": "female", "bmi": 25, "children": 1, "smoker": "no", "region": "northwest"}'
 ```
 
 
-## Bonus: Streamlit
+## Bonus: Streamlit App
 
 We also have an app using Streamlit, an open-source Python library used to facilitate the deployment of apps.
 
@@ -195,6 +199,7 @@ You don't need to make a request, you can fill the details directly on the app :
 # To Do
 
 [] Separate the files into folders for better organization
+
 [] Try to deploy the Flask app and the Streamlit app into the same URL
 
 # References
