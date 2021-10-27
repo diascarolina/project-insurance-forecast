@@ -198,9 +198,9 @@ You don't need to make a request, you can fill the details directly on the app :
 
 # To Do
 
-[] Separate the files into folders for better organization
+[ ] Separate the files into folders for better organization
 
-[] Try to deploy the Flask app and the Streamlit app into the same URL
+[ ] Try to deploy the Flask app and the Streamlit app into the same URL
 
 # References
 
