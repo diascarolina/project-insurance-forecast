@@ -21,26 +21,29 @@ def predict(answers_dict):
     
     return float(prediction)
 
-st.markdown("<h1 style='text-align: center; color: black;'>Medical Health Insurance Forecast</h1>", unsafe_allow_html = True)
+st.markdown("<h1 style='text-align: center; color: black;'>Health Insurance Price Forecast</h1>", unsafe_allow_html = True)
 
-st.markdown("Welcome to **Medical Insurance Forecast**. Fill the information below and click **Predict Value** to check how much would your insurance cost.", unsafe_allow_html = True)
+st.markdown("Welcome to our **Health Insurance Price Forecast**. Fill the information below and click **Predict Value** to check how much your insurance would cost.", unsafe_allow_html = True)
 
 st.caption("**Disclaimer**: More details can be found [here at the project repository](https://github.com/diascarolina/project-insurance-forecast).")
 
 
 answers_dict = {}
 
-answers_dict['age'] = st.slider('What is your age?', help = 'The slider can be moved using the arrow keys.', min_value = 0, max_value = 100, step = 1)
+expander = st.expander("👤 Personal Information")
 
-answers_dict['sex'] = 1 if st.selectbox('What is your gender?', ['Female', 'Male']) == 'Yes' else 0
+with expander:
+    answers_dict['age'] = st.slider('What is your age?', help = 'The slider can be moved using the arrow keys.', min_value = 0, max_value = 100, step = 1)
 
-answers_dict['bmi'] = st.slider('What is your BMI (Body Mass Index)?', help = 'The slider can be moved using the arrow keys.', min_value = 0.0, max_value = 100.0, step = 0.1)
+    answers_dict['sex'] = 1 if st.selectbox('What is your gender?', ['Female', 'Male']) == 'Yes' else 0
 
-answers_dict['children'] = st.slider('How many children do you have?', help = 'The slider can be moved using the arrow keys.', min_value = 0, max_value = 10, step = 1)
+    answers_dict['bmi'] = st.slider('What is your BMI (Body Mass Index)?', help = 'The slider can be moved using the arrow keys.', min_value = 0.0, max_value = 100.0, step = 0.1)
 
-answers_dict['smoker'] = 1 if st.selectbox('Do you smoke?', ['Yes', 'No']) == 'Yes' else 0
+    answers_dict['children'] = st.slider('How many children do you have?', help = 'The slider can be moved using the arrow keys.', min_value = 0, max_value = 10, step = 1)
 
-answers_dict['region'] = st.selectbox('In what region do you live?', ['Southwest', 'Southeast', 'Northwest', 'Northeast'])
+    answers_dict['smoker'] = 1 if st.selectbox('Do you smoke?', ['Yes', 'No']) == 'Yes' else 0
+
+    answers_dict['region'] = st.selectbox('In what US region do you live?', ['Southwest', 'Southeast', 'Northwest', 'Northeast'])
 
 if st.button('Predict Value'):
     value = predict(answers_dict)
