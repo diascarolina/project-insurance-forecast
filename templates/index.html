@@ -6,12 +6,25 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 </head>
 <body>
-<p><img src="https://cloud.githubusercontent.com/assets/1424573/4785631/dc5ddcd2-5d82-11e4-88a2-06fdabbe4fb8.png" alt="A pretty dock on a lake"></p>
+<p><img src="../img/poster.jpg" alt="Health Insurance"></p>
 
-<h1 id="price-forecast">Price Forecast</h1>
-<h2 id="medical-insurance-price-forecast">Medical Insurance Price Forecast</h2>
+<h1>Health Insurance Price Forecast</h1>
+
+<p>Welcome to the Health Insurance Price Forecast. In this project, we used linear regression to predict how much would someone pay in insurance using some variables related to personal information, such as age and gender.</p>
+
+<p>You can make a POST request to the URL https://insurance-forecast.herokuapp.com/predict/ using the following json as an example:</p>
+
+<p>
+    {
+        "age": 19,
+        "sex": "female",
+        "bmi": 25,
+        "children": 1,
+        "smoker": "no",
+        "region": "northwest"
+    }
+</p>
 <p><a href="link">Click here to go to the Streamlit App</a>.</p>
-
 
 </body>
 </html>
