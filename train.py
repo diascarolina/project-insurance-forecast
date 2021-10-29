@@ -56,9 +56,9 @@ print('Fitting and training the RandomForestRegressor...')
 randomreg = RandomForestRegressor(random_state = rs)
 
 params = {
-    'n_estimators': [10, 20, 30],
+    'n_estimators': [20, 50, 100],
     'max_features': ['auto', 'sqrt', 'log2'],
-    'min_samples_split': [2, 4, 8],
+    'min_samples_split': [10, 50, 100],
     'bootstrap': [True, False]
 }
 
