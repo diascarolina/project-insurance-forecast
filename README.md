@@ -163,7 +163,7 @@ To run it:
 docker run -it --rm -p 9696:9696 insurance-forecast
 ```
 
-Or you can pull the image directly from Docker Hub:
+Or you can pull the image directly from [Docker Hub](https://hub.docker.com/repository/docker/diascaro/insurance-forecast) (without habing to build it first):
 
 ```bash
 docker run -it --rm -p 9696:9696 diascaro/insurance-forecast
