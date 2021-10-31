@@ -213,6 +213,7 @@ You don't need to make a request, you can fill the details directly on the app :
 - [Machine Learning Zoomcamp](https://datatalks.club/courses/2021-winter-ml-zoomcamp.html)
 - [ML Zoomcamp: Midterm Project info](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/07-midterm-project)
 - [Kaggle Original Problem](https://www.kaggle.com/mirichoi0218/insurance)
+- [Deploy Churn Service on Heroku](https://github.com/razekmaiden/churn_service_heroku)
 - [Markdown to HTML](https://markdowntohtml.com/)
 - [Markdown CSS](https://markdowncss.github.io/)
 
