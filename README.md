@@ -175,7 +175,7 @@ You can test it as the above with the `make_requests.py` script and choosing the
 
 The API was deployed to the cloud using Heroku. The reason for chosing Heroku is because it is free.
 
-🟢 [Click here to access the main page of the app]()
+🟢 [Click here to access the main page of the app](https://insurance-forecast.herokuapp.com/)
 
 To make a POST request to the URL `https://insurance-forecast.herokuapp.com/predict` we can also use our `make_requests.py` script, or `curl` or use Postman. Again, let's see the first two methods.
 
@@ -197,7 +197,7 @@ curl -X POST https://insurance-forecast.herokuapp.com/predict \
 
 We also have an app using Streamlit, an open-source Python library used to facilitate the deployment of apps.
 
-🟢 [Click here to access the Streamlit app]()
+🟢 [Click here to access the Streamlit app](https://share.streamlit.io/diascarolina/project-insurance-forecast/main)
 
 You don't need to make a request, you can fill the details directly on the app :D
 
@@ -209,7 +209,7 @@ You don't need to make a request, you can fill the details directly on the app :
 
 # 6 References
 
-- Image by Olya Kobruseva on Pexels
+- [Image by Olya Kobruseva on Pexels](https://www.pexels.com/pt-br/foto/calendario-flatlay-tendencia-flat-lay-dentro-de-casa-7163953/)
 - [Machine Learning Zoomcamp](https://datatalks.club/courses/2021-winter-ml-zoomcamp.html)
 - [ML Zoomcamp: Midterm Project info](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/07-midterm-project)
 - [Kaggle Original Problem](https://www.kaggle.com/mirichoi0218/insurance)
@@ -221,6 +221,3 @@ You don't need to make a request, you can fill the details directly on the app :
 Any tips or suggestions? Feel free to contact me!
 
 [<img src="https://img.shields.io/badge/diascarolina-000000?style=flat-square&logo=github&logoColor=white" />](https://github.com/diascarolina) [<img src="https://img.shields.io/badge/carodias-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/carodias/) [<img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white" />](mailto:carolinadiasw@gmail.com)
-
-
-
