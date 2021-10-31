@@ -6,12 +6,13 @@
 
 # Table of Contents
 
-1. [Problem Context](#problem-context)
-2. [Project Organization](#project-organization)
+1. [Problem Context](problem-context)
+2. [Project Organization](project-organization)
 3. [How to Run it Locally](how-to-run-it-locally)
 4. [Deployment with Heroku](deployment-with-heroku)
-5. 
-
+5. [To Do](to-do)
+6. [References](references)
+7. [Contacts](contacts)
 
 # 1 Problem Context
 
@@ -46,7 +47,7 @@ This type of price prediction is very useful both for the company that sells ins
 
 ### 🟢 [The code for the **Flask** app capable of making **predictions**](https://github.com/diascarolina/project-insurance-forecast/blob/main/predict.py)
 
-### 🟢 [You can use this script to test the **requests** for **predictions**](https://github.com/diascarolina/project-insurance-forecast/blob/main/make_requests.py)
+### 🟢 [You can use this script to test the **requests** for the **predictions**](https://github.com/diascarolina/project-insurance-forecast/blob/main/make_requests.py)
 
 ### 🟢 [Our final **Dockerfile**](https://github.com/diascarolina/project-insurance-forecast/blob/main/Dockerfile)
 
@@ -200,14 +201,26 @@ We also have an app using Streamlit, an open-source Python library used to facil
 
 You don't need to make a request, you can fill the details directly on the app :D
 
-# To Do
+# 5 To Do
 
-- [] Separate the files into folders for better organization
+- [ ] Separate the files into folders for better organization
 
-- [] Try to deploy the Flask app and the Streamlit app into the same URL
+- [ ] Try to deploy the Flask app and the Streamlit app into the same URL
 
-# References
+# 6 References
 
 - Image by Olya Kobruseva on Pexels
-- https://markdowntohtml.com/
-- https://markdowncss.github.io/
+- [Machine Learning Zoomcamp](https://datatalks.club/courses/2021-winter-ml-zoomcamp.html)
+- [ML Zoomcamp: Midterm Project info](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/07-midterm-project)
+- [Kaggle Original Problem](https://www.kaggle.com/mirichoi0218/insurance)
+- [Markdown to HTML](https://markdowntohtml.com/)
+- [Markdown CSS](https://markdowncss.github.io/)
+
+# 7 Contacts
+
+Any tips or suggestions? Feel free to contact me!
+
+[<img src="https://img.shields.io/badge/diascarolina-000000?style=flat-square&logo=github&logoColor=white" />](https://github.com/diascarolina) [<img src="https://img.shields.io/badge/carodias-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/carodias/) [<img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white" />](mailto:carolinadiasw@gmail.com)
+
+
+
