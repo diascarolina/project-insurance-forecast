@@ -6,25 +6,34 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 </head>
 <body>
-<p><img src="../img/poster.jpg" alt="Health Insurance"></p>
 
-<h1>Health Insurance Price Forecast</h1>
+<h1 id="health-insurance-price-forecast">Health Insurance Price Forecast</h1>
 
-<p>Welcome to the Health Insurance Price Forecast. In this project, we used linear regression to predict how much would someone pay in insurance using some variables related to personal information, such as age and gender.</p>
+<p><img src="https://github.com/diascarolina/project-insurance-forecast/blob/main/img/poster.jpg?raw=true" alt="Health Insurance"></p>
 
-<p>You can make a POST request to the URL https://insurance-forecast.herokuapp.com/predict/ using the following json as an example:</p>
+<p>Welcome! In this project, we used linear regression to predict how much someone would pay in insurance using some variables related to personal information, such as age and gender.</p>
 
-<p>
-    {
-        "age": 19,
-        "sex": "female",
-        "bmi": 25,
-        "children": 1,
-        "smoker": "no",
-        "region": "northwest"
+<p>🟢 You can make a POST request to the URL <a href="https://insurance-forecast.herokuapp.com/predict/">https://insurance-forecast.herokuapp.com/predict/</a> using the following <em>json</em> as an example:</p>
+
+<pre><code>    {
+        <span class="hljs-attr">"age"</span>: <span class="hljs-number">19</span>,
+        <span class="hljs-attr">"sex"</span>: <span class="hljs-string">"female"</span>,
+        <span class="hljs-attr">"bmi"</span>: <span class="hljs-number">25</span>,
+        <span class="hljs-attr">"children"</span>: <span class="hljs-number">1</span>,
+        <span class="hljs-attr">"smoker"</span>: <span class="hljs-string">"no"</span>,
+        <span class="hljs-attr">"region"</span>: <span class="hljs-string">"northwest"</span>
     }
-</p>
-<p><a href="link">Click here to go to the Streamlit App</a>.</p>
+</code></pre>
+
+<p>🟢 You can also <a href="https://share.streamlit.io/diascarolina/project-insurance-forecast/main">click here</a> to check out the Streamlit App, in which you can also predict the insurance price, but in a nicer way 😉</p>
+
+<p>🟢 For more details, check out the <a href="https://github.com/diascarolina/project-insurance-forecast">project repository on GitHub</a></p>
+
+<hr>
+
+<p>Any tips or suggestions? Feel free to contact me!</p>
+
+<p><a href="https://github.com/diascarolina"><img src="https://img.shields.io/badge/diascarolina-000000?style=flat-square&logo=github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/carodias/"><img src="https://img.shields.io/badge/carodias-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a> <a href="mailto:carolinadiasw@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white" /></a></p>
 
 </body>
 </html>
