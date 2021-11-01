@@ -4,6 +4,8 @@
 
 ![](img/poster.jpg)
 
+- [Medium Article - "Data Science Projects: What Comes After Jupyter Notebooks?"](https://carodias.medium.com/data-science-projects-what-comes-after-jupyter-notebooks-930daff052ea)
+
 # Table of Contents
 
 1. [Problem Context](problem-context)
