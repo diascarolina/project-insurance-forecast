@@ -205,6 +205,8 @@ You don't need to make a request, you can fill the details directly on the app :
 
 # 5 To Do
 
+- [ ] Split the dataset into train, test and validation
+
 - [ ] Separate the files into folders for better organization
 
 - [ ] Try to deploy the Flask app and the Streamlit app into the same URL
