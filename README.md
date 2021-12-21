@@ -5,6 +5,7 @@
 ![](img/poster.jpg)
 
 - [Medium Article - "Data Science Projects: What Comes After Jupyter Notebooks?"](https://carodias.medium.com/data-science-projects-what-comes-after-jupyter-notebooks-930daff052ea)
+- [Project Live Presentation](https://youtu.be/TzEKcxJk17o)
 
 # Table of Contents
 
